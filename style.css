@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('img/fondo.gif');
+    background: norepeat;
+    overflow-x: hidden;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-family: 'Dancing Script';
+}
+
+.tarjeta{
+    display: block;
+    
+}
+
+    .tarjeta img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5%;
+        border: 10px solid #f0f;
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    }
+
+.foto{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 1em 1%;
+    min-width: 15em;
+    max-width: 100%;
+    text-align: center;
+    border: 0.3em solid #FFF;
+    border: 0.3em solid #e0189a;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.15);  
+    border-radius: 5%;
+    background-color: #e2e3db;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+
+    .foto:hover{
+        opacity: 1;
+        filter: grayscale(100%);
+    }
+
