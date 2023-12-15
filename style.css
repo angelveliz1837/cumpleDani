@@ -62,6 +62,8 @@ body{
     }
     .portada-responsive{
         display: block;
+    }
+    .portada-responsive img{
         width: 100%;
     }
     .foto-responsive{
@@ -77,6 +79,8 @@ body{
     }
     .portada-responsive{
         display: block;
+    }
+    .portada-responsive img{
         width: 100%;
     }
     .foto-responsive{
